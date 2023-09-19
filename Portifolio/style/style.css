@@ -18,6 +18,19 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* Estilizando o corpo da página */
 body {
     box-sizing: border-box;
@@ -47,7 +60,7 @@ body {
 
 /* Estilizando a seção de apresentação */
 .apresentacao {
-    padding: 5% 15%;
+    padding: 93px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +87,7 @@ body {
 
 /* Estilizando o texto na seção de apresentação */
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 21px;
     font-family: var(--fonte-secundaria);
 }
 
@@ -100,12 +113,11 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 20px 50px;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
