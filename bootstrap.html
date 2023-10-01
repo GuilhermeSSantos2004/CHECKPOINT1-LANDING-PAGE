@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="./style/style.css"> 
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  
+</head>
+
+
+  
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Seja bem-vindo ao novo mundo</a>
+        <nav class="cabecalho__menu">
+          <!-- Menu de navegação no cabeçalho -->
+          <a class="cabecalho__menu__link" href="index.html">Home</a> <!-- Link para a página inicial -->
+          <a class="cabecalho__menu__link" href="about.html">Sobre mim</a> <!-- Link para a página "Sobre mim" -->
+          <a class="cabecalho__menu__link" href="bootstrap.html">bootstrap</a> <!-- Link para a página "Sobre mim" -->
+        </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Vamos navergar</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/GuilhermeSSantos2004">GitHub</a>
+                <a class="nav-link" href="https://www.linkedin.com/in/guilherme-santos-50762b216/">linkedin</a>
+                <a class="nav-link" href="https://www.youtube.com/channel/UCpcxD8fQGdFG8x2DHbxkZMQ">Youtube</a>
+              </li>
+
+              
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+
+  
+
+  
+  <div class="container-main container-about">
+
+    <!-- Cabeçalho da página -->
+    
+
+    <!-- Conteúdo principal da página -->
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <!-- Seção de conteúdo de apresentação -->
+            <h1 class="apresentacao__conteudo__titulo">Máquinas e humanos trabalham juntos para um <strong
+                    class="titulo-destaque">futuro próspero!
+                </strong></h1>
+            <!-- Título da apresentação -->
+            <p class="apresentacao__conteudo__texto">Olá! Eu sou Guilherme Santos, estudante de Engenharia de
+                Software. Tenho experiência em desenvolvimento front-end, com especialização em React, HTML e CSS.
+                Gosto de auxiliar pequenos negócios e designers a transformar boas ideias em realidade. Vamos
+                conversar?</p>
+            <!-- Texto de apresentação -->
+            <div class="apresentacao__links">
+                <!-- Seção de links de mídia social -->
+                <h2 class="apresentacao__links_subtitulo">Acesse minhas Redes</h2>
+                <!-- Título para os links de mídia social -->
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/guilherme-santos-50762b216/">
+                    <!-- Link para o perfil do LinkedIn -->
+                    <img src="./assets/linkedin.png" alt="Logo do LinkedIn">
+                    linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/GuilhermeSSantos2004">
+                    <!-- Link para o perfil do GitHub -->
+                    <img src="./assets/github.png" alt="Logo do GitHub">
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+      
+      <div class="w-50 p-4">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="assets/xaOUR1.webp" class="d-block w-100" alt="..." >
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="assets/xaOUR0.webp" class="d-block w-100" alt="..." >
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/4k-pc-wallpaper-ai-art.png" class="d-block w-100" alt="..." >
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        <!-- Imagem de Guilherme programando -->
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <p>Desenvolvido pelo Guilherme</p>
+    </footer>
+
+</div>
+</body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</html>

@@ -10,6 +10,8 @@
 
     --fonte-primaria: 'Krona One', sans-serif;      /* Fonte principal: Krona One */
     --fonte-secundaria: 'Montserrat', sans-serif;   /* Fonte secundária: Montserrat */
+
+    --cor-hover-cabecalho: #A0AFB7;
 }
 
 /* Resetando margens e preenchimentos padrão para todos os elementos */
@@ -56,6 +58,10 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+  color: var(--cor-hover-cabecalho);
 }
 
 /* Estilizando a seção de apresentação */
@@ -138,3 +144,5 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+
